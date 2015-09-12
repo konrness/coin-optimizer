@@ -15,4 +15,4 @@ class USCoinCollectionFactory
             new Coin('penny',         0.01, 2.500,  1.52),
         ]);
     }
-} 
+}

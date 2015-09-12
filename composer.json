@@ -1,11 +1,13 @@
 {
-    "name": "kness/issue15",
+    "name": "konrness/coin-optimizer",
+    "description": "The coin optimizer will output the optimal coin combination (fewest number of coins) that fulfills a given dollar value. This was created for The Nerdery's code golf challenge #19.",
     "authors": [
         {
             "name": "Konr Ness",
             "email": "kness@nerdery.com"
         }
     ],
+    "license": "MIT",
     "require-dev": {
         "phpunit/phpunit" : "*"
     },

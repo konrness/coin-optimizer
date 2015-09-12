@@ -77,4 +77,4 @@ class QuantifiedCoinCollection extends \SplObjectStorage
         return $sum;
     }
 
-} 
+}
