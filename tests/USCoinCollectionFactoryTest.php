@@ -11,7 +11,7 @@ class USCoinCollectionFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $coinCollection = USCoinCollectionFactory::create();
 
-        $this->assertInstanceOf(CoinCollection::class, $coinCollection);
+        $this->assertInstanceOf('CoinOptimizer\CoinCollection', $coinCollection);
         $this->assertCount(6, $coinCollection->getSortedCoins());
 
     }
