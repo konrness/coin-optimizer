@@ -1,0 +1,17 @@
+{
+    "name": "kness/issue15",
+    "authors": [
+        {
+            "name": "Konr Ness",
+            "email": "kness@nerdery.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoinOptimizer\\": "src/CoinOptimizer/"
+        }
+    }
+}
