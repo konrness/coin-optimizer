@@ -2,6 +2,7 @@
 
 namespace CoinOptimizerTests;
 
+use CoinOptimizer\CoinCollection;
 use CoinOptimizer\USCoinCollectionFactory;
 
 class USCoinCollectionFactoryTest extends \PHPUnit_Framework_TestCase
@@ -10,6 +11,7 @@ class USCoinCollectionFactoryTest extends \PHPUnit_Framework_TestCase
     {
         $coinCollection = USCoinCollectionFactory::create();
 
+        $this->assertInstanceOf(CoinCollection::class, $coinCollection);
         $this->assertCount(6, $coinCollection->getSortedCoins());
 
     }

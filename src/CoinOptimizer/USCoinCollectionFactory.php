@@ -4,6 +4,9 @@ namespace CoinOptimizer;
 
 class USCoinCollectionFactory
 {
+    /**
+     * @return CoinCollection
+     */
     public static function create()
     {
         return new CoinCollection([
