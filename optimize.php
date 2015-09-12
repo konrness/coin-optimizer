@@ -1,8 +1,9 @@
 <?php
 /**
- * Challenge Yourselph - 010
+ * Challenge Yourselph - 019
+ * Coin Optimization
  *
- * Hack the Password
+ * Write a class or function that will output the optimal coin combination (fewest number of coins) that fulfills a given dollar value.
  *
  * Usage: php optimize.php [input]
  * Example: php optimize.php 3.67
