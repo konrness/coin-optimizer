@@ -2,7 +2,6 @@
 
 namespace CoinOptimizerTests;
 
-use CoinOptimizer\CoinCollection;
 use CoinOptimizer\USCoinCollectionFactory;
 
 class USCoinCollectionFactoryTest extends \PHPUnit_Framework_TestCase
